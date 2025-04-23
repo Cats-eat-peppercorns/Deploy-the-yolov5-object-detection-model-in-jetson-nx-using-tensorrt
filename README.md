@@ -1,7 +1,3 @@
-# 口罩检测项目
-
-本项目可以检测人是否佩戴口罩，若佩戴则输出绿框，未佩戴则输出红框
-
-本项目基于yolov5，部署通过TensorRT加速，帧率可达200FPS
-
-![image](https://github.com/Doctor-James/Mask_Detector/blob/master/demo.gif)
+## 2023年哈工程竞技机器人队ER机器人所用视觉代码
+使用tensorrt将yolov5部署在NVIDIA jetson nx上，并使用int8量化。
+具体使用方法参见我的博客https://blog.csdn.net/qq_69194611/article/details/130746390
